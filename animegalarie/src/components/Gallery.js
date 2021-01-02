@@ -10,6 +10,7 @@ import tg from './tg.jpg'
 function Gallery() {
     return (
         <div className="row justify-content-center my-5">
+            <h1 id="gallery-head" className="col-lg-12 text-center mb-5">Favourite anime.</h1>
             <Image source={goku} name="Dragon Ball Z"/>
             <Image source={deku} name="Hero Academia"/>
             <Image source={demonslayer} name="Demon Slayer"/>

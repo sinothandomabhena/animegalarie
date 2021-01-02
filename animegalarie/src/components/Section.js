@@ -5,12 +5,12 @@ import tanjiro2 from './tanjiro2.png'
 function Section() {
     return (
         <div id="section" className=" p-5 mt-5 text-center">
-            {/* <h1>Favourite main character.</h1> */}
             <div className="row">
                 <div className="col-lg-6">
-                    <img id="fav-img" className="mt-1" src={tanjiro2} alt="card-img" />
+                    <img id="fav-img" className="" src={tanjiro2} alt="card-img" />
                 </div>
                 <div id="section-text" className="col-lg-4">
+                    <h1 id="section-head">Favourite main character.</h1>
                     <h1 className="">Tanjiro</h1>
                     <h5>Anime: Demon Slayer</h5>
                     <p>
