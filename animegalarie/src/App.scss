@@ -86,3 +86,10 @@ footer p{
     font-weight: bolder !important;
     font-size: large;
 }
+
+#section-button:hover{
+    border: solid 1px black;
+    background-color: #000000;
+    color: #00dfa7;
+    transition: 0.2s;
+}
