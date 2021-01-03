@@ -14,18 +14,28 @@ import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Section from './components/Section'
 import Arc from './components/Arc'
+import Tanjiro from './components/Tanjiro'
 
 function App() {
   return (
       <Router>
-        <div className="app">
-          <Navbar />
-          <Jumbotron />
-          <Gallery />
-          <Section /> 
-          <Arc />
-          <Footer />
-        </div>
+        <Switch>
+          {/* Favourite Character Page */}
+          <Route path="/favouritecharacter">
+            <Navbar />
+            <Tanjiro />
+            <Footer />
+          </Route>
+          {/* Home Page */}
+          <Route path="/">
+            <Navbar />
+            <Jumbotron />
+            <Gallery />
+            <Section /> 
+            <Arc />
+            <Footer />
+          </Route>
+        </Switch>
       </Router>
   );
 }

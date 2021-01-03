@@ -1,5 +1,6 @@
 import React from 'react'
 import tanjiro2 from './images/tanjiro2.png'
+import {Link} from 'react-router-dom'
 
 function Section() {
     return (
@@ -18,7 +19,7 @@ function Section() {
                         his sister, Nezuko, who was turned into a demon after his family was killed by Muzan Kibutsuji following 
                         an attack that resulted the death of his other relatives.
                     </p>
-                    <button id="section-button" className="btn">Learn more</button>
+                    <Link to="/favouritecharacter" id="section-button" className="btn">Learn more</Link>
                 </div>
             </div>
         </div>
