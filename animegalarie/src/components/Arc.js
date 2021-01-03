@@ -5,10 +5,8 @@ function Arc() {
     return (
         <div id="arc" className=" p-5 mt-5 text-center">
             <div className="row">
-                <div className="col-lg-6">
-                    <img id="fav-img" className="" src={pain} alt="card-img" />
-                </div>
-                <div id="arc-text" className="col-lg-4">
+                
+                <div id="arc-text" className="col-lg-6">
                     <h1 id="arc-head">Favourite anime arc.</h1>
                     <h1 className="">Pain's Assault</h1>
                     <h5>Anime: Naruto</h5>
@@ -18,6 +16,10 @@ function Arc() {
                         find Naruto Uzumaki.
                     </p>
                     <button id="arc-button" className="btn">Learn more</button>
+                </div>
+
+                <div className="col-lg-6">
+                    <img id="fav-img" className="" src={pain} alt="card-img" />
                 </div>
             </div>
         </div>
