@@ -1,6 +1,5 @@
 import React from 'react'
-import tanjiro from './tanjiro.jpg'
-import tanjiro2 from './tanjiro2.png'
+import tanjiro2 from './images/tanjiro2.png'
 
 function Section() {
     return (
@@ -9,7 +8,7 @@ function Section() {
                 <div className="col-lg-6">
                     <img id="fav-img" className="" src={tanjiro2} alt="card-img" />
                 </div>
-                <div id="section-text" className="col-lg-4">
+                <div id="section-text" className="col-lg-6">
                     <h1 id="section-head">Favourite main character.</h1>
                     <h1 className="">Tanjiro</h1>
                     <h5>Anime: Demon Slayer</h5>

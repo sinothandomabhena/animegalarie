@@ -1,12 +1,12 @@
 import React from 'react'
-import pain from './pain.png'
+import pain from './images/pain.png'
 
 function Arc() {
     return (
         <div id="arc" className=" p-5 mt-5 text-center">
             <div className="row">
                 
-                <div id="arc-text" className="col-lg-6">
+                <div id="arc-text" className="col-lg-5">
                     <h1 id="arc-head">Favourite anime arc.</h1>
                     <h1 className="">Pain's Assault</h1>
                     <h5>Anime: Naruto</h5>
