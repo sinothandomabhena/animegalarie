@@ -6,7 +6,7 @@ function Arc() {
         <div id="arc" className=" p-5 mt-5 text-center">
             <div className="row">
                 
-                <div id="arc-text" className="col-lg-5">
+                <div id="arc-text" className="col-lg-5 mt-5">
                     <h1 id="arc-head">Favourite anime arc.</h1>
                     <h1 className="">Pain's Assault</h1>
                     <h5>Anime: Naruto</h5>
@@ -15,7 +15,6 @@ function Arc() {
                         in the anime, is an arc from Part II of the series. This arc sees Pain's attack on Konohagakure to 
                         find Naruto Uzumaki.
                     </p>
-                    <button id="arc-button" className="btn">Learn more</button>
                 </div>
 
                 <div className="col-lg-6">

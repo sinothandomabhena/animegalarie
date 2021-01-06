@@ -9,7 +9,7 @@ function Section() {
                 <div className="col-lg-6">
                     <img id="fav-img" className="" src={tanjiro2} alt="card-img" />
                 </div>
-                <div id="section-text" className="col-lg-6">
+                <div id="section-text" className="col-lg-6 mt-5">
                     <h1 id="section-head">Favourite main character.</h1>
                     <h1 className="">Tanjiro</h1>
                     <h5>Anime: Demon Slayer</h5>
@@ -19,7 +19,6 @@ function Section() {
                         his sister, Nezuko, who was turned into a demon after his family was killed by Muzan Kibutsuji following 
                         an attack that resulted the death of his other relatives.
                     </p>
-                    <Link to="/favouritecharacter" id="section-button" className="btn">Learn more</Link>
                 </div>
             </div>
         </div>
